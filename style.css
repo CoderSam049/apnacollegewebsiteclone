@@ -1,0 +1,413 @@
+
+        @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+        * {
+            margin: 0;
+            padding: 0;
+            text-transform: capitalize;
+            box-sizing: border-box;
+        }
+
+        .logo img {
+            width: 80px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-around;
+            height: 80px;
+            align-items: center;
+            font-size: 16px;
+            font-family: Lato;
+            font-weight: 700;
+            background-color: white;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 2;
+        }
+
+     header ul {
+            display: flex;
+            gap: 40px;
+        }
+        .text h1:active{
+            color: chocolate;
+     
+        }
+        #yes:checked + label{
+            color: green;
+           }
+
+        li {
+            list-style: none;
+            cursor: pointer;
+        }
+
+        #companySelect {
+            border: none;
+            font-size: 18px;
+            outline: none;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        .signup{
+            border: 2px solid #6674cc;
+            padding: 8px;  margin-top: -4px;
+            border-radius:5px;
+            color: #6674cc;
+        }
+
+        .updat-batch {
+            background-color: #6674cc;
+            color: rgb(255, 255, 255);
+            font-weight: 700;
+            padding: 8px;
+            margin-top: -4px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .midpart{
+           background-color: #2c3784;
+        }
+
+        .secondcontainer {
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+      
+            justify-content: space-around;
+        }
+
+        .shardhaimg img {
+            width: 400px;
+            border-radius: 50%;
+            background-color: rgb(54, 74, 92);
+        }
+
+        .text {
+            font-family: lato;
+            font-size: 28px;
+        }
+
+        .Delta-weblopment {
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        .text-blue {
+            color: #6674cc;
+            font-family: lato;
+            margin-top: 8px;
+            line-height: 1.5;
+        }
+
+
+
+        .learner img {
+            width: 30px;
+        }
+
+        .number {
+            display: block;
+            margin-top: -30px;
+            margin-left: 40px;
+        }
+
+        .happy {
+            padding-top: 8px;
+            margin-left: 10px;
+        }
+
+        #third h1 {
+            text-align: center;
+            font-weight: 800;
+        }
+
+        #third {
+            color: white;
+            background-color: #6674cc;
+            font-family: lato;
+            font-weight: 700;
+            padding: 20px 0;
+
+        }
+
+        .thirdcontent {
+            padding-top: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .newtext {
+
+            margin-top: 60px;
+            text-align: center;
+            line-height: 2;
+            font-size: 16px;
+
+
+        }
+
+        .newtext button {
+            margin-top: 15px;
+            font-size: 17px;
+            border: none;
+        }
+
+        .dream {
+            font-size: 20px;
+        }
+
+        strong {
+            font-weight: bold;
+        }
+
+        .dream-job {
+            color: #6674cc;
+            font-size: 20px;
+            font-family: lato;
+            font-weight: 800;
+        }
+
+        .world-company {
+            margin-top: 25px;
+            min-height: 40vh;
+            background-color: rgb(243, 249, 255);
+
+            padding: 10px 5%;
+        }
+
+        .companyno1 {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .box1 img {
+            width: 90px;
+        }
+
+
+
+
+        .studentpic{
+            min-height: 50vh;
+            background-color: rgb(249, 243, 235);
+            padding: 10px 20%;
+        }
+
+        .conainer-item{
+       
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding-bottom: 20px;
+
+        }
+
+        .student1{
+            padding: 20px 0px;
+            margin-bottom: 10px;
+        }
+
+        .ourstudent{
+            text-align: center;
+            color: #6674cc;
+            font-weight: 800;
+         
+            
+          
+        }
+
+        .student1 img{
+            width: 340px;
+
+        }
+        .butt button{
+            border: none;
+        }
+
+        .butt{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: #6674cc;
+        }
+
+
+
+        .fivepart{
+            padding-top: 40px;
+            padding-bottom: 40px;
+            padding-inline: 20px;
+        }
+        .fivepart h1{
+        text-align: center;
+        padding-bottom: 25px;
+        }
+
+        .midimage{
+            max-width: 600px;
+            margin-inline: auto;
+        }
+
+        .midimage img{
+            width: 100%;
+          
+
+        }
+
+        .join-us{
+            text-align: center;
+            height: 50vh;
+            background-color: rgb(252, 246, 240);
+            padding-top: 100px;
+
+       
+        }
+       
+
+        .link{
+            margin-top: 50px;
+            max-width: 500px;
+            margin-inline: auto;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .insta img{
+            width: 40px;
+        }
+
+        .lastpart{
+             background-color: rgb(218, 226, 226);
+             padding:80px 10px;
+            
+        }
+
+
+        #checkbox,.crossbtn,.hambarger{
+            display: none;
+        }
+
+
+        @media(max-width:600px){
+            .somelink{
+                flex-direction: column;
+            }
+            .lastpart{
+                padding-inline: 25px;
+            }
+            .logotext h5{
+ 
+                margin-bottom: 20px;
+            }
+            
+        .student1 img{
+            width: 250px;
+
+
+        }
+        
+        .secondcontainer {
+            min-height:100vh;
+            flex-direction: column;
+          
+        }
+        .shardhaimg img {
+            width: 280px;
+            border-radius: 50%;
+            background-color: rgb(54, 74, 92);
+        }
+
+
+        }
+
+        .somelink{
+          
+            display: flex; 
+            justify-content: space-around;
+        }
+
+        .logotext h5{
+            padding-top: 20px;
+        }
+     
+    .copy{
+       display: flex;
+       justify-content: center;
+       padding-top: 35px;
+    }
+
+
+    @media(max-width:860px){
+        #checkbox,.crossbtn,.hambarger{
+            display: block;
+        }
+     header ul {
+        display: flex;
+        flex-grow: 1;
+        background-color: rgb(229, 229, 229);
+        padding: 10px 20px;
+        display: none;
+        max-width: 250px;
+      
+       
+       
+    }
+    header{
+        justify-content: space-between;
+        padding-inline: 28px;
+    }
+   #checkbox{
+    display: none;
+   }
+
+   input:checked~ul{
+    display: block;
+    position: relative;
+    top: 80px;
+    padding: 25px;
+    
+   
+   }
+
+   ul li+li{
+    /* margin-top: 20px; */
+    padding-bottom: 15px;
+   }
+   .crossbtn{
+    display: flex;
+    /* margin-left: 100px; */
+    padding-block: 10px;
+   }
+
+   
+/* 
+sibling selector power */
+   input:checked~ .hambarger{        
+    display: none;
+
+   }
+
+   #companySelect{
+    max-width: 300px;
+    margin-top: 15px;
+    background-color: inherit;
+   }
+   .updat-batch {
+ 
+    padding: 5px;
+   
+}
+
+    }
