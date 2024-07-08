@@ -1,3 +1,4 @@
+//javascript code
 const learners=document.querySelector("#third > div > div.learner > span");
 const subscribers= document.querySelector("#third > div > div.subscriber > p > span")
 
