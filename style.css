@@ -85,7 +85,8 @@
         }
 
         .shardhaimg img {
-            width: 400px;
+            width: 100%;
+            max-width: 450px;
             border-radius: 50%;
             background-color: rgb(54, 74, 92);
         }
@@ -231,7 +232,8 @@
         }
 
         .student1 img{
-            width: 340px;
+           width: 100%;
+           max-width: 300px;
 
         }
         .butt button{
@@ -314,24 +316,12 @@
  
                 margin-bottom: 20px;
             }
-            
-        .student1 img{
-            width: 250px;
-
-
-        }
-        
+ 
         .secondcontainer {
             min-height:100vh;
             flex-direction: column;
           
         }
-        .shardhaimg img {
-            width: 280px;
-            border-radius: 50%;
-            background-color: rgb(54, 74, 92);
-        }
-
 
         }
 
